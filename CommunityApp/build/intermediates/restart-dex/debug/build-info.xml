@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
+    abi="x86_64,x86"
     api-level="23"
     density="420dpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="15506210548938"
+    timestamp="10240847733573"
     token="6478283405322546547"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="122" />
+        duration="208" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="23" />
+        duration="40" />
     <task
         name="verifier"
         duration="2" />
@@ -27,14 +27,27 @@
         type="DEX" />
 
     <build
-        timestamp="14765196799604"
-        verifier="BINARY_MANIFEST_FILE_CHANGE" >
+        timestamp="8234751901231"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\outputs\apk\CommunityApp-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="15506210548938"
+        timestamp="9609021177250"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="10240847733573"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"

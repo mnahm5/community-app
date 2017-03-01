@@ -85,7 +85,10 @@ public class HomeActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-
+        if (id == R.id.profile) {
+            Intent profileIntent = new Intent(getApplicationContext(), ProfileActivity.class);
+            startActivity(profileIntent);
+        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

@@ -51,6 +51,7 @@
             android:name="com.mnahm5.community.HomeActivity"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.mnahm5.community.ProfileActivity" />
     </application>
 
 </manifest>
