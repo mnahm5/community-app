@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\Personal_Projects\\Android Course\\community-app\\CommunityApp\\build\\intermediates\\res\\merged\\debug\\menu\\activity_register_drawer.xml",
+        "source": "D:\\Personal_Projects\\Android Course\\community-app\\CommunityApp\\src\\main\\res\\menu\\activity_register_drawer.xml"
+    },
+    {
+        "merged": "D:\\Personal_Projects\\Android Course\\community-app\\CommunityApp\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "D:\\Personal_Projects\\Android Course\\community-app\\CommunityApp\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "D:\\Personal_Projects\\Android Course\\community-app\\CommunityApp\\build\\intermediates\\res\\merged\\debug\\menu\\register.xml",
+        "source": "D:\\Personal_Projects\\Android Course\\community-app\\CommunityApp\\src\\main\\res\\menu\\register.xml"
+    }
+]
