@@ -33,4 +33,6 @@
     <string name="title_activity_register">RegisterActivity</string>
     <string name="title_activity_home">HomeActivity</string>
     <string name="full_name">Full Name</string>
+    <string name="profile">Profile</string>
+    <string name="communities">Communities</string>
 </resources>

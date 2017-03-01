@@ -5,57 +5,40 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="9035082341135"
+    timestamp="15506210548938"
     token="6478283405322546547"
-    verifier="COMPATIBLE" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="153" />
+        duration="122" />
     <task
         name="instant-run-dex"
-        duration="522" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="93" />
+        duration="23" />
     <task
         name="verifier"
-        duration="5" />
+        duration="2" />
 
     <artifact
-        location="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="8701815939950"
+        timestamp="14765196799604"
         verifier="BINARY_MANIFEST_FILE_CHANGE" >
         <artifact
             location="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\outputs\apk\CommunityApp-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="8728233226666"
-        verifier="R_CLASS_CHANGE" >
+        timestamp="15506210548938"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-            type="RESOURCES" />
-        <artifact
-            location="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            location="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
             type="DEX" />
-    </build>
-    <build
-        timestamp="8965299182222"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\builds\debug\8965299182222\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="9035082341135"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

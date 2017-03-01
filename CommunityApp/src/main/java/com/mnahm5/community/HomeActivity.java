@@ -1,5 +1,6 @@
 package com.mnahm5.community;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -12,8 +13,17 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
+import com.joanzapata.iconify.IconDrawable;
+import com.joanzapata.iconify.Iconify;
+import com.joanzapata.iconify.fonts.FontAwesomeIcons;
+import com.joanzapata.iconify.fonts.FontAwesomeModule;
+import com.parse.ParseQuery;
+import com.parse.ParseUser;
 import com.parse.starter.R;
+
+import org.w3c.dom.Text;
 
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -21,6 +31,11 @@ public class HomeActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        redirect();
+        Iconify.with(new FontAwesomeModule());
+        setTitle("Home");
+
         setContentView(R.layout.activity_home);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -33,6 +48,8 @@ public class HomeActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        setUpNav(navigationView);
     }
 
     @Override
@@ -73,5 +90,35 @@ public class HomeActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    public void redirect()
+    {
+        if (ParseUser.getCurrentUser() == null) {
+            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+            startActivity(intent);
+        }
+    }
+
+    public void setUpNav(NavigationView navigationView)
+    {
+        Menu menu = navigationView.getMenu();
+
+        menu.findItem(R.id.profile).setIcon(
+                new IconDrawable(this, FontAwesomeIcons.fa_user)
+                        .actionBarSize());
+
+        menu.findItem(R.id.logout).setIcon(
+                new IconDrawable(this, FontAwesomeIcons.fa_sign_out )
+                        .actionBarSize());
+
+        menu.findItem(R.id.communities).setIcon(
+                new IconDrawable(this, FontAwesomeIcons.fa_users)
+                        .actionBarSize());
+
+        View view = navigationView.getHeaderView(0);
+
+        final TextView tvUsername = (TextView) view.findViewById(R.id.tvUsername);
+        tvUsername.setText(ParseUser.getCurrentUser().getUsername());
     }
 }

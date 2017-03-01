@@ -51,9 +51,7 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         Menu menu = navigationView.getMenu();
-        menu.findItem(R.id.register).setIcon(
-                new IconDrawable(this, FontAwesomeIcons.fa_user_plus)
-                        .actionBarSize());
+        setUpMenuIcons(menu);
     }
 
     @Override
@@ -146,5 +144,12 @@ public class MainActivity extends AppCompatActivity
             Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
             startActivity(intent);
         }
+    }
+
+    public void setUpMenuIcons(Menu menu)
+    {
+        menu.findItem(R.id.register).setIcon(
+                new IconDrawable(this, FontAwesomeIcons.fa_user_plus)
+                        .actionBarSize());
     }
 }

@@ -51,9 +51,7 @@ public class RegisterActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         Menu menu = navigationView.getMenu();
-        menu.findItem(R.id.login).setIcon(
-                new IconDrawable(this, FontAwesomeIcons.fa_sign_in)
-                        .actionBarSize());
+        setUpMenuIcons(menu);
     }
 
     @Override
@@ -144,5 +142,12 @@ public class RegisterActivity extends AppCompatActivity
             Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
             startActivity(intent);
         }
+    }
+
+    public void setUpMenuIcons(Menu menu)
+    {
+        menu.findItem(R.id.login).setIcon(
+                new IconDrawable(this, FontAwesomeIcons.fa_sign_in)
+                        .actionBarSize());
     }
 }
