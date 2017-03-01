@@ -291,6 +291,7 @@
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="create_new_account">Create New Account</string>
     <string name="don_t_have_an_account_ncreate_a_new_account">Don\'t have an account?\nCreate a new account</string>
+    <string name="full_name">Full Name</string>
     <string name="hello_world">Hello World!</string>
     <string name="login">Login</string>
     <string name="logout">Logout</string>
@@ -302,6 +303,7 @@
     <string name="register">Register</string>
     <string name="share">Share</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="title_activity_home">HomeActivity</string>
     <string name="title_activity_main">Welcome</string>
     <string name="title_activity_register">RegisterActivity</string>
     <string name="use_existing_account">Use Existing Account</string>

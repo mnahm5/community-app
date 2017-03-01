@@ -14,6 +14,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import com.joanzapata.iconify.IconDrawable;
@@ -34,10 +35,11 @@ public class MainActivity extends AppCompatActivity
 
         Iconify.with(new FontAwesomeModule());
 
+        redirect();
+
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -92,7 +94,9 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-
+        if (id == R.id.register) {
+            RegisterLink((View) this.findViewById(android.R.id.content));
+        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
@@ -116,7 +120,7 @@ public class MainActivity extends AppCompatActivity
                                     "Login Successful",
                                     Toast.LENGTH_SHORT
                             ).show();
-                            //redirect();
+                            redirect();
                         }
                         else {
                             Toast.makeText(
@@ -134,5 +138,13 @@ public class MainActivity extends AppCompatActivity
     {
         Intent intent = new Intent(getApplicationContext(), RegisterActivity.class);
         startActivity(intent);
+    }
+
+    public void redirect()
+    {
+        if (ParseUser.getCurrentUser() != null) {
+            Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+            startActivity(intent);
+        }
     }
 }
