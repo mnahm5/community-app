@@ -35,4 +35,7 @@
     <string name="full_name">Full Name</string>
     <string name="profile">Profile</string>
     <string name="communities">Communities</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="cancel">Cancel</string>
+    <string name="save_changes">Save Changes</string>
 </resources>

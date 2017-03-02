@@ -18,37 +18,52 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/tvLoading"
-        android:textSize="50sp"
-        android:gravity="center_horizontal" />
+        android:textSize="100sp"
+        android:gravity="center_horizontal"
+        android:onClick="SetProfilePic" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/ivProfilePic" />
+        android:id="@+id/ivProfilePic"
+        android:onClick="UpdateProfilePic" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
-        android:layout_below="@+id/ivProfilePic"
+        android:layout_below="@+id/tvLoading"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="27dp"
         android:id="@+id/etFullName"
-        android:hint="Full Name"
-        android:visibility="invisible" />
+        android:hint="@string/full_name"
+        android:visibility="invisible"
+        android:enabled="false" />
 
     <Button
-        android:text="Edit Profile"
+        android:text="@string/edit_profile"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btEdit"
         android:layout_below="@+id/etFullName"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:visibility="invisible"
+        android:onClick="EditProfile" />
+
+    <Button
+        android:text="@string/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btCancel"
+        android:layout_below="@+id/btEdit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:visibility="invisible" />
+
 
 
 </RelativeLayout>
