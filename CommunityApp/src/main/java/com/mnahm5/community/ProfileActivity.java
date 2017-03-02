@@ -4,6 +4,7 @@ import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
 import android.os.Build;
@@ -11,6 +12,7 @@ import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -22,15 +24,19 @@ import com.joanzapata.iconify.IconDrawable;
 import com.joanzapata.iconify.Iconify;
 import com.joanzapata.iconify.fonts.FontAwesomeIcons;
 import com.joanzapata.iconify.fonts.FontAwesomeModule;
+import com.parse.FindCallback;
+import com.parse.GetDataCallback;
 import com.parse.ParseException;
 import com.parse.ParseFile;
 import com.parse.ParseObject;
+import com.parse.ParseQuery;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
 import com.parse.starter.R;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.util.List;
 
 public class ProfileActivity extends AppCompatActivity {
 
@@ -60,11 +66,27 @@ public class ProfileActivity extends AppCompatActivity {
         if (ParseUser.getCurrentUser().get("profilePic") == null) {
             tvLoading.setText("{fa-user}");
         }
+        else {
+            ParseFile file = (ParseFile) ParseUser.getCurrentUser().get("profilePic");
+            file.getDataInBackground(new GetDataCallback() {
+                @Override
+                public void done(byte[] data, ParseException e) {
+                    if (e == null && data != null) {
+                        Bitmap bitmap = BitmapFactory.decodeByteArray(data, 0, data.length);
+                        ivProfilePic.setImageBitmap(bitmap);
+                        ivProfilePic.setVisibility(View.VISIBLE);
+                        tvLoading.setVisibility(View.INVISIBLE);
+                        RelativeLayout.LayoutParams lp = (RelativeLayout.LayoutParams) etFullName.getLayoutParams();
+                        lp.addRule(RelativeLayout.BELOW, ivProfilePic.getId());
+                        etFullName.setLayoutParams(lp);
+                    }
+                }
+            });
+        }
         etFullName.setText(ParseUser.getCurrentUser().get("name").toString());
         etFullName.setVisibility(View.VISIBLE);
         etFullName.setEnabled(false);
         btEdit.setVisibility(View.VISIBLE);
-        //tvLoading.setVisibility(View.INVISIBLE);
     }
 
     @Override
@@ -88,7 +110,7 @@ public class ProfileActivity extends AppCompatActivity {
                 Bitmap image = MediaStore.Images.Media.getBitmap(this.getContentResolver(), selectedImage);
                 Toast.makeText(
                         getApplicationContext(),
-                        "Photos Received",
+                        "Photo Received",
                         Toast.LENGTH_SHORT
                 ).show();
                 ivProfilePic.setImageBitmap(image);
@@ -118,6 +140,9 @@ public class ProfileActivity extends AppCompatActivity {
             btEdit.setText(R.string.save_changes);
             btCancel.setVisibility(View.VISIBLE);
             flag = true;
+        }
+        else {
+            saveChanges();
         }
     }
 
@@ -151,31 +176,27 @@ public class ProfileActivity extends AppCompatActivity {
 
     public void saveChanges()
     {
+        // Getting the image and converting it in a parse object
         Bitmap image = ((BitmapDrawable) ivProfilePic.getDrawable()).getBitmap();
         ByteArrayOutputStream stream = new ByteArrayOutputStream();
         image.compress(Bitmap.CompressFormat.PNG, 100, stream);
         byte[] byteArray = stream.toByteArray();
         ParseFile file = new ParseFile("image.png", byteArray);
 
-        ParseObject object = new ParseObject("Image");
-        object.put("image", file);
-        object.put("username", ParseUser.getCurrentUser().getUsername());
-        object.saveInBackground(new SaveCallback() {
+        ParseUser user = ParseUser.getCurrentUser();
+        user.put("profilePic", file);
+        user.put("name", etFullName.getText().toString());
+        user.saveInBackground(new SaveCallback() {
             @Override
             public void done(ParseException e) {
                 if (e == null) {
                     Toast.makeText(
                             getApplicationContext(),
-                            "Image Shared",
+                            "Profile Updated",
                             Toast.LENGTH_SHORT
                     ).show();
-                }
-                else {
-                    Toast.makeText(
-                            getApplicationContext(),
-                            "Error Occured\n" + e.getMessage(),
-                            Toast.LENGTH_SHORT
-                    ).show();
+                    Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+                    startActivity(intent);
                 }
             }
         });

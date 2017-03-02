@@ -5,37 +5,37 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="65790420668569"
+    timestamp="100325630294707"
     token="6478283405322546547"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="METHOD_ADDED" >
 
     <task
         name="javac"
-        duration="160" />
+        duration="270" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="44" />
+        duration="50" />
     <task
         name="verifier"
-        duration="2" />
+        duration="4" />
 
     <artifact
         location="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
         type="DEX" />
 
     <build
-        timestamp="64127500081382"
-        verifier="MANIFEST_FILE_CHANGE" >
+        timestamp="96899493065492"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\outputs\apk\CommunityApp-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="65790420668569"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="100325630294707"
+        verifier="METHOD_ADDED" >
         <artifact
             location="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
             type="DEX" />
