@@ -27,11 +27,11 @@ ADDED from D:\Personal_Projects\Android Course\community-app\CommunityApp\src\ma
 		ADDED from D:\Personal_Projects\Android Course\community-app\CommunityApp\src\main\AndroidManifest.xml:14:22-77
 application
 ADDED from D:\Personal_Projects\Android Course\community-app\CommunityApp\src\main\AndroidManifest.xml:16:5-48:19
-MERGED from [com.android.support:design:23.4.0] D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\exploded-aar\com.android.support\design\23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.4.0] D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.4.0] D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.4.0] C:\Users\mnahm5\.android\build-cache\e1c0c68bca00e6028fd2f8ef308b110bc8fa9263\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\mnahm5\.android\build-cache\8ce310d76db393ae8b046926db5e1ca927e8b513\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\mnahm5\.android\build-cache\f7ef4a3104180237fad6eb6be43984ee6a8b5660\output\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\mnahm5\.android\build-cache\f9721f8787e93579c9d21d0c1e6030568d0099ce\output\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\mnahm5\.android\build-cache\9332f60b97c05c46775cdf92596586c456cb2ec9\output\AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from D:\Personal_Projects\Android Course\community-app\CommunityApp\src\main\AndroidManifest.xml:20:9-41
 	android:allowBackup
@@ -94,16 +94,16 @@ ADDED from D:\Personal_Projects\Android Course\community-app\CommunityApp\src\ma
 		ADDED from D:\Personal_Projects\Android Course\community-app\CommunityApp\src\main\AndroidManifest.xml:47:19-70
 uses-sdk
 INJECTED from D:\Personal_Projects\Android Course\community-app\CommunityApp\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:design:23.4.0] D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\exploded-aar\com.android.support\design\23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.4.0] D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.4.0] D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.4.0] D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
-MERGED from [com.joanzapata.iconify:android-iconify-fontawesome:2.2.2] D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\exploded-aar\com.joanzapata.iconify\android-iconify-fontawesome\2.2.2\AndroidManifest.xml:6:5-43
-MERGED from [com.joanzapata.iconify:android-iconify:2.2.2] D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\exploded-aar\com.joanzapata.iconify\android-iconify\2.2.2\AndroidManifest.xml:6:5-43
-MERGED from [com.android.support:support-v4:23.4.0] D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.4.0] C:\Users\mnahm5\.android\build-cache\e1c0c68bca00e6028fd2f8ef308b110bc8fa9263\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\mnahm5\.android\build-cache\25812cdf330d1ac974fb9c5f2a4fda96a5a4a899\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\mnahm5\.android\build-cache\8ce310d76db393ae8b046926db5e1ca927e8b513\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\mnahm5\.android\build-cache\f7ef4a3104180237fad6eb6be43984ee6a8b5660\output\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\mnahm5\.android\build-cache\f9721f8787e93579c9d21d0c1e6030568d0099ce\output\AndroidManifest.xml:5:5-43
+MERGED from [com.joanzapata.iconify:android-iconify-fontawesome:2.2.2] C:\Users\mnahm5\.android\build-cache\58233ba78ac08f6d39ef6b1e76adff716ea4f1a2\output\AndroidManifest.xml:6:5-43
+MERGED from [com.joanzapata.iconify:android-iconify:2.2.2] C:\Users\mnahm5\.android\build-cache\96c59c30348e5557564de38bde8e5e2dc5dfbb72\output\AndroidManifest.xml:6:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\mnahm5\.android\build-cache\9332f60b97c05c46775cdf92596586c456cb2ec9\output\AndroidManifest.xml:20:5-43
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:23.4.0] D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\mnahm5\.android\build-cache\8ce310d76db393ae8b046926db5e1ca927e8b513\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from D:\Personal_Projects\Android Course\community-app\CommunityApp\src\main\AndroidManifest.xml
 		INJECTED from D:\Personal_Projects\Android Course\community-app\CommunityApp\src\main\AndroidManifest.xml

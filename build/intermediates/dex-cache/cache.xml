@@ -3,39 +3,12 @@
 
     <item
         is-multidex="true"
-        jar="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\exploded-aar\com.joanzapata.iconify\android-iconify\2.2.2\jars\classes.jar"
+        jar="C:\Users\mnahm5\.android\build-cache\25812cdf330d1ac974fb9c5f2a4fda96a5a4a899\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="23.0.1"
-        sha1="970b2eadc8805e4e04a9008f97368c7b8cc78651">
-        <dex dex="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\10\com.joanzapata.iconify-android-iconify-2.2.2_81769b8cb84a491d72cbb2cbc837134a2a852ba2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_ca081d2aeb1d4df483b97183e47c2c93306e8ab0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_79d9e776822a6b632f72333cc8e0f1149537690f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_d13409234063167939b0d99647886eb535967897\classes.dex" />
+        revision="25.0.0"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dd773ed2354e75c23d79b62490cc24b088c470f7\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -48,12 +21,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
-        revision="23.0.1"
-        sha1="486b8833cc68274d398fb8939e14cab30d8998ca">
-        <dex dex="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_1d4219c429d7979f69fb3e2ed7127d7468409afc\classes.dex" />
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d7d5c3ed247a96e1f80fc1f35a43851eac091da4\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -75,57 +48,111 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\exploded-aar\com.joanzapata.iconify\android-iconify-fontawesome\2.2.2\jars\classes.jar"
+        jar="C:\Users\mnahm5\.android\build-cache\e1c0c68bca00e6028fd2f8ef308b110bc8fa9263\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="23.0.1"
-        sha1="af20faf2a6fff6cac01bb9ee4130ee942a29ec22">
-        <dex dex="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\10\com.joanzapata.iconify-android-iconify-fontawesome-2.2.2_e8690fa64a9e9bf993b38cc7db73c34e3eca3eae\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_c6555123ecf51870a1e0b57e99857cb4ac3cfa5d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
-        <dex dex="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_60f3369cb8344475ea11eee35ce0f15497dfcc94\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
+        revision="25.0.0"
         sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
-        <dex dex="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_1f047f81d6f68a00c2af318bfd3ad257fbf2f94b\classes.dex" />
+        <dex dex="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a8a226e600efe72bfe75bc8240ad4ddd3036d4c1\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jar="C:\Users\mnahm5\.android\build-cache\58233ba78ac08f6d39ef6b1e76adff716ea4f1a2\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="23.0.1"
+        revision="25.0.0"
+        sha1="af20faf2a6fff6cac01bb9ee4130ee942a29ec22">
+        <dex dex="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\10\classes_82a08329a328e09dbcab7d5a7d175fadaec229c6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mnahm5\.android\build-cache\f7ef4a3104180237fad6eb6be43984ee6a8b5660\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\10\classes_aed967902f47aefd3eee27f2fc9ab31fea1ac683\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mnahm5\.gradle\caches\modules-2\files-2.1\com.parse\parse-android\1.13.0\58a7d54b6a4f28be11f0cecec93097eddf473e6f\parse-android-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="58a7d54b6a4f28be11f0cecec93097eddf473e6f">
+        <dex dex="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\10\parse-android-1.13.0_3869fb64f90974d18d4f6f846c0be9f2ac30d075\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mnahm5\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_1bedf92c588823b9c832cf3720259d428bfd8732\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="871230409156dcf71f4fc474a518f49df601cfa6">
+        <dex dex="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_1d4219c429d7979f69fb3e2ed7127d7468409afc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mnahm5\.android\build-cache\9332f60b97c05c46775cdf92596586c456cb2ec9\output\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
         sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_033c623c354906346ad8fc15ef0ec3eea3606f25\classes.dex" />
+        <dex dex="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_f4c82c1629545327a9a34beec2749d21ebe0b3e9\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\mnahm5\.android\build-cache\96c59c30348e5557564de38bde8e5e2dc5dfbb72\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="23.0.1"
-        sha1="9acb5b36ae68444c30444a1eae7a31969418c082">
-        <dex dex="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d7d5c3ed247a96e1f80fc1f35a43851eac091da4\classes.dex" />
+        revision="25.0.0"
+        sha1="970b2eadc8805e4e04a9008f97368c7b8cc78651">
+        <dex dex="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e441c5daef7276b7cc8c7c74c28b871f98ccc792\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mnahm5\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_314e300795931635a0b2be770e7fcbed2dac54e3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mnahm5\.android\build-cache\8ce310d76db393ae8b046926db5e1ca927e8b513\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\10\classes_aa9d7b0229bb215674abf71307e99ee5ffd55ecd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mnahm5\.android\build-cache\9332f60b97c05c46775cdf92596586c456cb2ec9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8fb85e35514df8b83b6ab2300b7ddcc6303d6d49\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mnahm5\.android\build-cache\f9721f8787e93579c9d21d0c1e6030568d0099ce\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4939cf7ab824e893398f479386b60c49b17e9cbd\classes.dex" />
     </item>
 
 </items>
