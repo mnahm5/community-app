@@ -30,7 +30,6 @@ public class CommunityDetailsActivity extends AppCompatActivity {
     private ImageView ivProfilePic;
     private TextView tvInstruction;
     private TextView tvProfilePic;
-    private EditText etName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,7 +41,6 @@ public class CommunityDetailsActivity extends AppCompatActivity {
         ivProfilePic = (ImageView) findViewById(R.id.ivProfilePic);
         tvInstruction = (TextView) findViewById(R.id.tvInstruction);
         tvProfilePic = (TextView) findViewById(R.id.tvProfilePic);
-        etName = (EditText) findViewById(R.id.etName);
     }
 
     @Override
