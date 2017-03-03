@@ -14,11 +14,14 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.joanzapata.iconify.IconDrawable;
 import com.joanzapata.iconify.Iconify;
 import com.joanzapata.iconify.fonts.FontAwesomeIcons;
 import com.joanzapata.iconify.fonts.FontAwesomeModule;
+import com.parse.LogOutCallback;
+import com.parse.ParseException;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
 import com.parse.starter.R;
@@ -88,6 +91,21 @@ public class HomeActivity extends AppCompatActivity
         if (id == R.id.profile) {
             Intent profileIntent = new Intent(getApplicationContext(), ProfileActivity.class);
             startActivity(profileIntent);
+        }
+        else if (id == R.id.logout) {
+            ParseUser.logOutInBackground(new LogOutCallback() {
+                @Override
+                public void done(ParseException e) {
+                    if (e == null) {
+                        Toast.makeText(
+                                getApplicationContext(),
+                                "Logout Successful",
+                                Toast.LENGTH_LONG
+                        ).show();
+                        redirect();
+                    }
+                }
+            });
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

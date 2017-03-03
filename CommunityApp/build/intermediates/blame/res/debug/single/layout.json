@@ -68,24 +68,24 @@
         "source": "C:\\Users\\mnahm5\\.android\\build-cache\\8ce310d76db393ae8b046926db5e1ca927e8b513\\output\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "D:\\Personal_Projects\\Android Course\\community-app\\CommunityApp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\mnahm5\\.android\\build-cache\\8ce310d76db393ae8b046926db5e1ca927e8b513\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+        "merged": "D:\\Personal_Projects\\Android Course\\community-app\\CommunityApp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\mnahm5\\.android\\build-cache\\8ce310d76db393ae8b046926db5e1ca927e8b513\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "D:\\Personal_Projects\\Android Course\\community-app\\CommunityApp\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_main.xml",
         "source": "D:\\Personal_Projects\\Android Course\\community-app\\CommunityApp\\src\\main\\res\\layout\\app_bar_main.xml"
     },
     {
-        "merged": "D:\\Personal_Projects\\Android Course\\community-app\\CommunityApp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\mnahm5\\.android\\build-cache\\8ce310d76db393ae8b046926db5e1ca927e8b513\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "D:\\Personal_Projects\\Android Course\\community-app\\CommunityApp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\mnahm5\\.android\\build-cache\\8ce310d76db393ae8b046926db5e1ca927e8b513\\output\\res\\layout\\abc_action_bar_up_container.xml"
+        "merged": "D:\\Personal_Projects\\Android Course\\community-app\\CommunityApp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\mnahm5\\.android\\build-cache\\8ce310d76db393ae8b046926db5e1ca927e8b513\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
         "merged": "D:\\Personal_Projects\\Android Course\\community-app\\CommunityApp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "C:\\Users\\mnahm5\\.android\\build-cache\\8ce310d76db393ae8b046926db5e1ca927e8b513\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\Personal_Projects\\Android Course\\community-app\\CommunityApp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\mnahm5\\.android\\build-cache\\8ce310d76db393ae8b046926db5e1ca927e8b513\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
         "merged": "D:\\Personal_Projects\\Android Course\\community-app\\CommunityApp\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",

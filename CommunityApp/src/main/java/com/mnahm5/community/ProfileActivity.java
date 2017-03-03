@@ -201,4 +201,10 @@ public class ProfileActivity extends AppCompatActivity {
             }
         });
     }
+
+    public void Cancel(View view)
+    {
+        Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+        startActivity(intent);
+    }
 }
