@@ -118,6 +118,10 @@ public class HomeActivity extends AppCompatActivity
             Intent intent = new Intent(getApplicationContext(), MainActivity.class);
             startActivity(intent);
         }
+
+        // Testing
+        Intent intent = new Intent(getApplicationContext(), CommunityDetailsActivity.class);
+        startActivity(intent);
     }
 
     public void setUpNav(NavigationView navigationView)

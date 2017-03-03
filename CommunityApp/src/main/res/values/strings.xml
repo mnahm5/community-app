@@ -40,4 +40,8 @@
     <string name="save_changes">Save Changes</string>
     <string name="title_activity_community">Community</string>
     <string name="title_activity_communities_list">CommunitiesList</string>
+    <string name="click_to_edit">Click to Edit</string>
+    <string name="community_name">Community Name</string>
+    <string name="description">Description</string>
+    <string name="create_community">Create Community</string>
 </resources>

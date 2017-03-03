@@ -382,8 +382,12 @@
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="cancel">Cancel</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
+    <string name="click_to_edit">Click to Edit</string>
     <string name="communities">Communities</string>
+    <string name="community_name">Community Name</string>
+    <string name="create_community">Create Community</string>
     <string name="create_new_account">Create New Account</string>
+    <string name="description">Description</string>
     <string name="don_t_have_an_account_ncreate_a_new_account">Don\'t have an account?\nCreate a new account</string>
     <string name="edit_profile">Edit Profile</string>
     <string name="full_name">Full Name</string>

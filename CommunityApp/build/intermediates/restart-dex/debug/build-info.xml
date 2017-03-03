@@ -6,34 +6,25 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1488513681385"
+    timestamp="1488515724176"
     token="6478283405322546547"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="536" />
+        duration="190" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="198" />
+        duration="25" />
     <task
         name="verifier"
-        duration="21" />
+        duration="1" />
 
     <artifact
-        location="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
         location="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\split-apk\debug\slices\slice_0.apk"
         type="SPLIT" />
     <artifact
         location="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\outputs\apk\CommunityApp-debug.apk"
@@ -82,19 +73,32 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1488513681385"
+        timestamp="1488514812877"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1488515680896"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
+            location="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\outputs\apk\CommunityApp-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1488515724176"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
             location="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\outputs\apk\CommunityApp-debug.apk"
