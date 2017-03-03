@@ -2,8 +2,6 @@ package com.mnahm5.community;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -22,11 +20,8 @@ import com.joanzapata.iconify.fonts.FontAwesomeIcons;
 import com.joanzapata.iconify.fonts.FontAwesomeModule;
 import com.parse.LogOutCallback;
 import com.parse.ParseException;
-import com.parse.ParseQuery;
 import com.parse.ParseUser;
 import com.parse.starter.R;
-
-import org.w3c.dom.Text;
 
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -106,6 +101,10 @@ public class HomeActivity extends AppCompatActivity
                     }
                 }
             });
+        }
+        else if (id == R.id.communities) {
+            Intent communitiesIntent = new Intent(getApplicationContext(), CommunitiesListActivity.class);
+            startActivity(communitiesIntent);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

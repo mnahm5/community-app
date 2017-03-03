@@ -52,6 +52,11 @@
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="com.mnahm5.community.ProfileActivity" />
+        <activity
+            android:name="com.mnahm5.community.CommunitiesListActivity"
+            android:label="@string/title_activity_communities_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.mnahm5.community.CommunityDetailsActivity" />
 
         <service
             android:name="com.android.tools.fd.runtime.InstantRunService"

@@ -8,7 +8,23 @@
         "source": "D:\\Personal_Projects\\Android Course\\community-app\\CommunityApp\\src\\main\\res\\menu\\activity_register_drawer.xml"
     },
     {
+        "merged": "D:\\Personal_Projects\\Android Course\\community-app\\CommunityApp\\build\\intermediates\\res\\merged\\debug\\menu\\communities_list.xml",
+        "source": "D:\\Personal_Projects\\Android Course\\community-app\\CommunityApp\\src\\main\\res\\menu\\communities_list.xml"
+    },
+    {
         "merged": "D:\\Personal_Projects\\Android Course\\community-app\\CommunityApp\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
         "source": "D:\\Personal_Projects\\Android Course\\community-app\\CommunityApp\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "D:\\Personal_Projects\\Android Course\\community-app\\CommunityApp\\build\\intermediates\\res\\merged\\debug\\menu\\activity_community_drawer.xml",
+        "source": "D:\\Personal_Projects\\Android Course\\community-app\\CommunityApp\\src\\main\\res\\menu\\activity_community_drawer.xml"
+    },
+    {
+        "merged": "D:\\Personal_Projects\\Android Course\\community-app\\CommunityApp\\build\\intermediates\\res\\merged\\debug\\menu\\community.xml",
+        "source": "D:\\Personal_Projects\\Android Course\\community-app\\CommunityApp\\src\\main\\res\\menu\\community.xml"
+    },
+    {
+        "merged": "D:\\Personal_Projects\\Android Course\\community-app\\CommunityApp\\build\\intermediates\\res\\merged\\debug\\menu\\activity_communities_list_drawer.xml",
+        "source": "D:\\Personal_Projects\\Android Course\\community-app\\CommunityApp\\src\\main\\res\\menu\\activity_communities_list_drawer.xml"
     }
 ]

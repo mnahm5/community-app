@@ -38,4 +38,6 @@
     <string name="edit_profile">Edit Profile</string>
     <string name="cancel">Cancel</string>
     <string name="save_changes">Save Changes</string>
+    <string name="title_activity_community">Community</string>
+    <string name="title_activity_communities_list">CommunitiesList</string>
 </resources>
