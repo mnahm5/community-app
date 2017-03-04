@@ -6,19 +6,19 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1488515724176"
+    timestamp="1488523686932"
     token="6478283405322546547"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="190" />
+        duration="228" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="25" />
+        duration="22" />
     <task
         name="verifier"
         duration="1" />
@@ -89,13 +89,18 @@
         <artifact
             location="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1488523506596"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\outputs\apk\CommunityApp-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1488515724176"
+        timestamp="1488523686932"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\Personal_Projects\Android Course\community-app\CommunityApp\build\intermediates\split-apk\debug\slices\slice_6.apk"
